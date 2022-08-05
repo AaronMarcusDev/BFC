@@ -53,7 +53,7 @@ Voilà, you have now an executable form of your Brainfuck program.
 
 - The **Interpreter** takes these tokens and executes them.
 
-- It simulates **memory** using a List / Array. and uses a integer to keep track of the **pointer**.
+- It simulates **memory** using a List / Array and uses a integer to keep track of the **pointer**.
 
 ## Notes and Todo
 
