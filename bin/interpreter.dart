@@ -4,11 +4,11 @@ import 'dart:io';
 class Interpreter {
 
   void _interpret(List<Command> tokens) {
-  List<int> data = List.filled(30000, 0);
+  List<int> data = List.filled(30000, 0); // Simulated memory
   List<int> loopList = [];
-  int nestedLoops = 0;
+  int nestedLoops = 0; // Keeps track of loops-in-loops
   bool inLoop = false;
-  int pos = 0;
+  int pos = 0; // Simulates pointer (ptr)
   
   for (int c  = 0; c < tokens.length; c++) {
     Command command = tokens[c];
