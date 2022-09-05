@@ -31,7 +31,6 @@ class Compiler {
         break;
 
         case Command.decrement: {
-          // data[pos]--;
           code.add("  --*ptr;");
         }
         break;
