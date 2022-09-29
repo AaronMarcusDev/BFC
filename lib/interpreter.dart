@@ -1,4 +1,4 @@
-import 'command.dart';
+import 'package:bfc/command.dart';
 import 'dart:io';
 
 class Interpreter {

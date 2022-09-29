@@ -1,5 +1,5 @@
-import 'dart:io';
-import 'lexer.dart';
+import 'package:bfc/shared.dart';
+import 'package:bfc/lexer.dart';
 
 void main(List<String> args) async {
   void usageMenu() {

@@ -8,7 +8,7 @@ Download the zip-file containing BFC and TCC from the [BFC release page](https:/
 
 Make sure to place the folder containing BFC in a system location.
 
-The location **C:\bfc** (for windows)  is recommended.
+The location **C:\bfc** is recommended for the windows platform.
 
 Don't forget to [add this folder to PATH](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/).
 ## Brainfuck-language
@@ -22,7 +22,7 @@ Learn more about the well-known esoteric programming language:
 
 You can run BFC from the command line after adding it to **PATH**.
 
-```bash
+```c#
 CLI:
     $ bfc <file> <mode> <optional-flags>
 
@@ -64,7 +64,6 @@ Voilà, you have now an executable form of your Brainfuck program.
 **Todo**
 
 - Linux support.
-- MacOS support?
 
 ## Contributing
 I will keep updating BFC myself.

@@ -1,6 +1,6 @@
-import 'command.dart';
-import 'interpreter.dart';
-import 'compiler.dart';
+import 'package:bfc/shared.dart';
+import 'package:bfc/interpreter.dart';
+import 'package:bfc/compiler.dart';
 
 class Lexer {
 
