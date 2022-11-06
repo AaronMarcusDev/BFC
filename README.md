@@ -38,7 +38,7 @@ Options:
 BFC is written in the [Dart language](https://dart.dev).
 ### The compiling process
 
-- **B --> C --> TCC --> .EXE**
+- **.B -->.C --> TCC --> .EXE**
 
 - The **Lexer** takes the source-file (**.b**) and transforms it into **tokens** called **Commands**.
 
@@ -46,7 +46,7 @@ BFC is written in the [Dart language](https://dart.dev).
 
 - The **Compiler** takes these lines, writes them into a **C-file** file and calls **TCC** to compile the file.
 
-Voilà, you have now an executable form of your Brainfuck program.
+Voilà, your Brainfuck program has been compiled to an executable. 
 
 ### The interpreter
 - The **Lexer** takes the source-file (**.b**) and transforms it into tokens called **Commands**.
@@ -60,10 +60,6 @@ Voilà, you have now an executable form of your Brainfuck program.
 **Notes**
 - The Brainfuck compiler is currently **ONLY** working on the windows platform. 
 - BFC will report all characters besides the ones used by Brainfuck as errors, unless you use the **-c** flag.
-
-**Todo**
-
-- Linux support.
 
 ## Contributing
 I will keep updating BFC myself.
